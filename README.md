@@ -8,15 +8,25 @@ This repo contains an exploration of using code written in rust in other languag
 * JS (nodeJS)
 * JS (Browser)
 
-It's going to be a rollercoaster of emotions. Will take it one incremental step at a time. TODOs that come to mind are:
+# Motivation
+We're in the process of writing a lot of libs across several languages. the libs we're producing require cryptographic primitives like:
+* keygen
+* signing / verifying
+* encrypting / decrypting
+* encoding / decoding
+* hashing
+
+It would be nice to write the above functionality in a single language and use it in all the languages we're targeting.
+
+It's going to be a rollercoaster of emotions. Will take it one incremental step at a time.
+
+# TODOs
 
 > [!NOTE]
 > Will move these to GitHub issues soon
 
-# TODOs
-
 ## Rust
-* write simplest possible crate that surfaces a single method _no-arg_ method: `generate_random_num`
+* write simplest possible crate that surfaces a single method: `generate_random_num(min, incl_max)`
     * uses 1 external crate: [`rand`](https://crates.io/crates/rand)
 * figure out what's needed to create Swift (iOS) bindings and dew it
 * figure out what's needed to create Kotlin (iOS) bindings and dew it
