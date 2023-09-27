@@ -18,7 +18,7 @@ We're in the process of writing a lot of libs across several languages. the libs
 
 It would be nice to write the above functionality in a single language and use it in all the languages we're targeting.
 
-It's going to be a rollercoaster of emotions. Will take it one incremental step at a time.
+It's going to be a rollercoaster of emotions 🎢 . Will take it one incremental step at a time.
 
 # TODOs
 
