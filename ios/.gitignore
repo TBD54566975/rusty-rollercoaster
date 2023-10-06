@@ -1,0 +1,5 @@
+## User settings
+xcuserdata/
+
+## Generated Rust xcframework destination
+generated/
