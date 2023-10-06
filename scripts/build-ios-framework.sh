@@ -1,4 +1,4 @@
-cd ../rust-core
+cd rust-core
 
 NAME="rust_core"
 TARGET_DIR="target"
@@ -45,11 +45,3 @@ eval "$XCODE_BUILD_CMD"
 # Remove the temp header directory
 rm -rf "${TEMP_HEADER_DIR}"
 
-# xcodebuild -create-xcframework \
-#     -library "${TARGET_DIR}/aarch64-apple-darwin/${RELDIR}/${STATIC_LIB_NAME}" \
-#     -headers "${NEW_HEADER_DIR}" \
-#     -library "${TARGET_DIR}/aarch64-apple-ios/${RELDIR}/${STATIC_LIB_NAME}" \
-#     -headers "${NEW_HEADER_DIR}" \
-#     -library "${TARGET_DIR}/aarch64-apple-ios-sim/${RELDIR}/${STATIC_LIB_NAME}" \
-#     -headers "${NEW_HEADER_DIR}" \
-#     -output "${OUTDIR}/${NAME}_framework.xcframework"
