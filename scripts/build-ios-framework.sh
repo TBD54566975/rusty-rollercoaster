@@ -1,4 +1,5 @@
-cd rust-core
+THIS_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cd $THIS_DIR/../rust-core
 
 NAME="rust_core"
 TARGET_DIR="target"
