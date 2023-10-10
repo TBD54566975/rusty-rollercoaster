@@ -26,9 +26,6 @@ It's going to be a rollercoaster of emotions 🎢 . Will take it one incremental
 > Will move these to GitHub issues soon
 
 ## Rust
-* write simplest possible crate that surfaces a single method: `generate_random_num(min, incl_max)`
-    * uses 1 external crate: [`rand`](https://crates.io/crates/rand)
-* figure out what's needed to create Swift (iOS) bindings and dew it
 * figure out what's needed to create Kotlin (iOS) bindings and dew it
 * figure out what's needed to create Kotlin (server-side) bindings and dew it
 * figure out what's needed to run rust code in JS (presumably WASM) and dew it
@@ -36,10 +33,9 @@ It's going to be a rollercoaster of emotions 🎢 . Will take it one incremental
   * adjust if/as needed for node
 
 ## Swift (iOS)
-* scaffold project that we can use to test bindings.
-  * dead simple iOS App. single screen that has a giant "Randy" button. Pressing it should call `generate_random_num` and print the number to screen
-* include readme for how to run app
-* figure out how to use binding & use it
+1. Build the iOS framework with script: `./scripts/build-ios-framework.sh`
+2. Open `ios/SampleApp.xcodeproj` (requires Xcode 15)
+3. Run the project (click the play button, or use the default keyboard shortcut `⌘+R`)
 
 ## Kotlin (Android)
 * scaffold project that we can use to test bindings.

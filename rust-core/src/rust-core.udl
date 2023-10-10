@@ -1,0 +1,3 @@
+namespace rust_core {
+    i32 generate_random_num(i32 min, i32 incl_max);
+};
