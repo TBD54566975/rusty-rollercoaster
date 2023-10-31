@@ -11,6 +11,7 @@ fn main() {
         vec![Swift],
         Some(out_dir.into()),
         None,
+        None,
         true,
     )
     .unwrap();

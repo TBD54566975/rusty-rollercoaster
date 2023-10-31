@@ -10,8 +10,8 @@ crate-type = ["lib", "cdylib", "staticlib"]
 
 [dependencies]
 rand = "0.8.5"
-uniffi = { version = "0.24.3", features = ["build"] }
+uniffi = { version = "0.25.0", features = ["build"] }
 
 [build-dependencies]
-uniffi_build = "0.24.3"
-uniffi_bindgen = "0.24.3"
+uniffi_build = "0.25.0"
+uniffi_bindgen = "0.25.0"
